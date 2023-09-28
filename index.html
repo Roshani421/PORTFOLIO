@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/39f81af4cc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+
+    <div id="header">
+        <div class="container">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <nav>
+                <img src="images/RoshaniLogo.jpg" class="logo" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Roshani Subedi</p>
+                <h1><span>Frontend Developer</span></h1>
+                <h2>Pokhara, Nepal</h2>
+            </div>
+        </div>
+    </div>
+    </body>
+    </html>
+    
+
+    
+    
+    <div class="social-media">
+        <a href="https://github.com/roshani421" class="icon" target="_blank">
+            <i class="fab fa-github-alt"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/roshni-subedi-5" class="icon" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="#" class="icon" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#" class="icon" target="_blank">
+            <i class="fab fa-instagram"></i>  
+        </a>
+    </div> 
+
+
+
+    <div id="about">
+        <div class="container"> 
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="User Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hey, I am a highly qualified professional with a diverse range of skills and a strong educational background. 
+                        I hold a Bachelor's degree in Software Engineering from a reputable university, where I gained a solid
+                        foundation in programming, software development, and data structures.</p>
+                        <a href="#" class="btn" >Read More</a>                    <div class="tab-titles">
+                        <span class="tab-links active-link" onclick="opentab('skills', event)">Skills</span>
+                        <span class="tab-links" onclick="opentab('experience', event)">Experience</span>
+                        <span class="tab-links" onclick="opentab('education', event)">Education</span>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>FRONTEND DEVELOPER</span><br>Designing Web interfaces</li>
+                            <li><span>WEB DEVELOPMENT</span>Web App Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023- Current</span><br>Designing Web interfaces at UrjaTech</li>
+                            <li><span>2019-2023</span><br>Team Lead at Pokhara University</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>FRONTEND DEVELOPER</span><br>Designing Web interfaces at Gandaki College</li>
+                            <li><span>WEB DEVELOPMENT</span><br>Web App Development from Gandaki College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>A well-designed website can help you form a good impression on your prospective customers. It can also help you nurture your leads and get more conversions. But, more importantly, it provides good user experience and helps your website visitors access and navigate your website with ease.</p>
+                    <a href="#" rel="noopener">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-blog"></i>
+                    <h2>Web Developer</h2>
+                    <p>I am a positive, enthusiastic, and competent Web Developer who, over the years, has built up a diverse range of skills, qualities, and attributes that guarantee I will perform highly in this role.</p>
+                    <a href="#" rel="noopener">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store-ios"></i>
+                    <h2>Web App</h2>
+                    <p>Thinking about whether your business needs a web application?</p>
+                    <a href="#" rel="noopener">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/image1.jpg" alt="Work Image">
+                    <div class="layer">
+                        <h3>Mobile App</h3>
+                        <p>An application that allows people to share information or to bring people together.</p>
+                        <a href="#" rel="noopener"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/image2.jpg" alt="Work Image">
+                    <div class="layer">
+                        <h3>Social App</h3>
+                        <p>An application that allows people to share information or to bring people together.</p>
+                        <a href="#" rel="noopener"><i class="fas fa-mobile"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/image3.jpg" alt="Work Image">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>An application that allows people to share information or to bring people together.</p>
+                        <a href="#" rel="noopener"><i class="fas fa-music"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn" >See More</a> 
+        </div>
+    </div>
+
+
+
+
+<!....................contact.........-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me!</h1>
+                <p><i class="fas fa-envelope"></i> evaprincess59@gmail.com</p>
+                <p><i class="fas fa-phone"></i> 9805226421</p>
+            </div>
+            <div class="contact-right">
+                <form id="contact-form" method="POST">
+                    <input type="text" name="Name" placeholder="Full Name" required>
+                    <input type="email" name="Email" placeholder="Email Address" required>
+                    <input type="tel" name="Mobile" placeholder="Mobile Number">
+                    <input type="text" name="Subject" placeholder="Email Subject">
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p> Copyright <i class="fa-regular fa-copyright"></i> & copy;2023 by Roshani. Welcome to My Profile!! | All Rights Reserved<a href=""><i class="fa-solid fa-arrow-up"></i></a></p>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname, event) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+    </script>
+
+    <script src="https://unpkg.com/scrollrevel"></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
